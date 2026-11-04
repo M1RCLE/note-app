@@ -1,0 +1,9 @@
+Dockerfile
+.dockerignore
+*.md
+.env
+.env.*
+*.log
+.idea/
+.vscode/
+api

@@ -1,0 +1,11 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+body { margin: 0; padding: 16px; background: Canvas; color: CanvasText; }
+main { max-width: 640px; margin: 0 auto; }
+form { display: flex; gap: 8px; }
+input { flex: 1; padding: 8px; font-size: 1rem; }
+button { padding: 8px 12px; cursor: pointer; }
+ul { list-style: none; padding: 0; }
+li { display: flex; align-items: center; gap: 12px; padding: 8px 0; border-bottom: 1px solid #8884; }
+li span { flex: 1; word-break: break-word; }
+li time { font-size: .8rem; opacity: .7; }
+#status { min-height: 1.2em; opacity: .8; }

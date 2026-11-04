@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notes</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <h1>Заметки</h1>
+    <form id="note-form">
+      <input id="note-text" type="text" maxlength="1000" placeholder="Новая заметка" required autocomplete="off">
+      <button type="submit">Добавить</button>
+    </form>
+    <p id="status" role="status"></p>
+    <ul id="notes"></ul>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
